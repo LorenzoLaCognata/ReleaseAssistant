@@ -35,9 +35,9 @@
                     <div class="card shadow mb-4">
                         <div class="card-body">
 						
-							<div class="mb-4">
-								Create <a href=""><i class="fa fa-square-plus"></i></a>
-							</div>
+							<div class="progress progress-sm mr-2">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 80%"></div>
+							</div><span class="small font-weight-bold">80%</span>
 							
                             <div class="table-responsive">
 
@@ -59,7 +59,7 @@
 										<?php
 
 												echo "										<tr>" . PHP_EOL;
-												echo "											<td><a href=\"\"><i class=\"fa fa-magnifying-glass\"></i></a></td>" . PHP_EOL;
+												echo "											<td><a href=\"development.php\"><i class=\"fa fa-magnifying-glass\"></i></a></td>" . PHP_EOL;
 												echo "											<td><a href=\"development_map_devtype.php\"><i class=\"fa fa-file-code\"></i></a> Map existing column</td>" . PHP_EOL;
 												echo "											<td>ODI</td>" . PHP_EOL;
 												echo "											<td><a href=\"development_map_devobject.php\"><i class=\"fa fa-object-group\"></i></a> MAP_FT_TEST_ACTIVITY_IT_04</td>" . PHP_EOL;
@@ -76,6 +76,11 @@
 									</tbody>
 								</table>
 							</div>
+
+							<div class="mb-4">
+								Create <a href="development_create.php"><i class="fa fa-square-plus"></i></a>
+							</div>
+
 						</div>  
 					</div>
 				</div>

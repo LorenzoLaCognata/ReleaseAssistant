@@ -22,7 +22,7 @@
 			?>
                 <a class="nav-link"> <!--href="link_for_this_page.php"-->
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span>
+                    <span style="text-decoration:line-through">Dashboard (WIP)</span>
 				</a>
             </li>
 
@@ -77,7 +77,7 @@
 			?>
                 <a class="nav-link"> <!--href="link_for_this_page.php"-->
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Dev. Objects</span>
+                    <span style="text-decoration:line-through">Developments (WIP)</span>
 				</a>
             </li>
 
@@ -91,21 +91,7 @@
 			?>
                 <a class="nav-link"> <!--href="link_for_this_page.php"-->
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Dev. Changes</span>
-				</a>
-            </li>
-
-			<?php
-//				if ( $_SERVER[PHP_SELF] == '/link_for_this_page.php' ) {
-//					echo "            <li class=\"nav-item active\">" . PHP_EOL;
-//				}
-//				else {
-					echo "            <li class=\"nav-item\">" . PHP_EOL;
-//				}
-			?>
-                <a class="nav-link"> <!--href="link_for_this_page.php"-->
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Dev. Tasks</span>
+                    <span style="text-decoration:line-through">Tasks (WIP)</span>
 				</a>
             </li>
 
