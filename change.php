@@ -60,9 +60,9 @@
 
 												echo "										<tr>" . PHP_EOL;
 												echo "											<td><a href=\"\"><i class=\"fa fa-magnifying-glass\"></i></a></td>" . PHP_EOL;
-												echo "											<td><a href=\"\"><i class=\"fa fa-file-code\"></i></a> Map existing column</td>" . PHP_EOL;
+												echo "											<td><a href=\"development_map_devtype.php\"><i class=\"fa fa-file-code\"></i></a> Map existing column</td>" . PHP_EOL;
 												echo "											<td>ODI</td>" . PHP_EOL;
-												echo "											<td><a href=\"\"><i class=\"fa fa-object-group\"></i></a> MAP_FT_TEST_ACTIVITY_IT_04</td>" . PHP_EOL;
+												echo "											<td><a href=\"development_map_devobject.php\"><i class=\"fa fa-object-group\"></i></a> MAP_FT_TEST_ACTIVITY_IT_04</td>" . PHP_EOL;
 												echo "											<td>PKG_FT_TEST_ACTIVITY_IT</td>" . PHP_EOL;
 												echo "											<td>" . PHP_EOL;
 												echo "												<div class=\"progress progress-sm mr-2\">" . PHP_EOL;
